@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map Utils
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+Utils	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+format	KEYWORD2
+myPrintf	KEYWORD2
+serialBegin	KEYWORD2
+DebugSerialBegin	KEYWORD2
+DebugMessagePrintf	KEYWORD2
+DebugDelay	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
