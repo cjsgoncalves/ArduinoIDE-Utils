@@ -1,8 +1,3 @@
----
-title: my title
-author: my name
-date: today
----
 # Utils
 
 ### Carlos Gonçalves <cajocasa@gmail.com>
