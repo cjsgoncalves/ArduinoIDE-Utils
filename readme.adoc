@@ -1,9 +1,0 @@
-= Utils
-Carlos Gonçalves <cajocasa@gmail.com>
-v1.0
-:version-label: Version
-
-Print with arguments.
-
-This library provides utility functions that behaves like the printf with arguments.
-
