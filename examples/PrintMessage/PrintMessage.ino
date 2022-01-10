@@ -24,19 +24,19 @@ String myString1( "%s %d using a String\n" );
 const String myString2( "%s %d using a const String\n" );
 
 void setup() {
-  DebugDelay( 2000 );
+	DebugDelay( 2000 );
 
-  DebugSerialBegin( 115200 );
+	DebugSerialBegin( 115200 );
 
-  // The next message is allways printed
-  myPrintf( "%s %d using a char*\n", "Printf", 4 );
+	// The next message is allways printed
+	myPrintf( "%s %d using a char*\n", "Printf", 4 );
 
-  // The next message is printed only if the compliler flag -DDebugMode is set
-  DebugMessagePrintf( myString1, "Printf", 4 );
+	// The next message is printed only if the compliler flag -DDebugMode is set
+	DebugMessagePrintf( myString1, "Printf", 4 );
 
-  myPrintf( Serial, "%s %d using a char*\n", "Printf", 4 );
+	myPrintf( Serial, "%s %d using a char*\n", "Printf", 4 );
 
-  myPrintf( Serial, myString2, "Printf", 4 );
+	myPrintf( Serial, myString2, "Printf", 4 );
 }
 
 void loop() {

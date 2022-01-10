@@ -25,7 +25,7 @@ var NAVTREE =
   [ "Utils", "index.html", [
     [ "Files", "files.html", [
       [ "Carlos Gonçalves <cajocasa@gmail.com>", "index.html#autotoc_md1", [
-        [ "Version 1.0.1", "index.html#autotoc_md2", null ]
+        [ "Version 1.0.2", "index.html#autotoc_md2", null ]
       ] ],
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [

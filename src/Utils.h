@@ -21,7 +21,7 @@ void myPrintf(const char* sFmt, ...);
 
 /**
 	\brief
-	Print formatted data (equivalent to standard C printf) to the default <b><code>Serial</b></code> port.
+	Print formatted data (equivalent to standard C printf) to the default <b><code>Serial</code></b> port.
 
 	Writes the Arduino <code>String</code> object <b><code>sFmt</code></b> to the <b><code>Serial</code></b> port.
 
